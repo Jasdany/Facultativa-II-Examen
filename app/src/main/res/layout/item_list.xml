@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/rl1"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/imagenviewlv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        />
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="textViewNombre"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/imagenviewlv"
+         />
+    <TextView
+        android:id="@+id/textViewDes"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="textViewDescripcion"
+        android:layout_below="@+id/textViewNom"
+        />
+    <TextView
+        android:id="@+id/textViewCos"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="textViewCosto"
+        android:layout_below="@+id/textViewDes"
+       />
+    <TextView
+        android:id="@+id/textViewHor"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="textViewHoras"
+        android:layout_below="@+id/textViewCos"
+        />
+    <TextView
+        android:id="@+id/textViewReq"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="textViewRequisitos"
+        android:layout_below="@+id/textViewHor"
+         />
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
